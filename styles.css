@@ -1,0 +1,56 @@
+body{
+    display: block;
+color: rgb(255, 252, 252);
+background: rgb(245, 91, 245);
+padding: 40px;
+margin: 40px;
+font-family: "Libre Baskerville", serif;
+}
+
+header{ 
+    font-size: 40px;
+   border-bottom: solid 4px rgb(170, 10, 130) ; 
+}
+
+.tittle{ 
+    font-size: 15px;
+        background: rgb(184, 156, 213);
+        padding: 80px;
+        display: flex;
+        justify-content: center;
+    background: #ffbbd2;
+    margin-top: 40px;
+}
+
+.videos{
+    background: #ffbbd2;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    padding: 40px;
+
+}
+.categoria{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.videos iframe{
+    opacity: 0.8;
+    height: 200px;
+}
+.videos iframe:hover{
+    opacity: 1.0;
+    border: 1px solid purple
+}
+.iframe{
+    height: 100px;
+}
+
+section{
+    margin-top: 80px;
+}
+
+h1{
+padding-right: 40px;
+}
